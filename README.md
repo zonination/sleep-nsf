@@ -6,7 +6,7 @@ The National Sleep Foundation recommends sleep based on your age. This plot atte
 
 ## Graphic
 
-![Animated GIF](https://raw.githubusercontent.com/zonination/h-r-diagram/master/twinkle.gif)
+![Graphic of Recommended Sleep Times](https://raw.githubusercontent.com/zonination/sleep-nsf/master/Sleep.png)
 
 ## Sources:
 
