@@ -2,7 +2,21 @@
 
 ## About
 
-The National Sleep Foundation recommends sleep based on your age. This plot attempts to plot it based on 
+The National Sleep Foundation recommends sleep based on your age, and not the traditional 6-8 hours that is typical from .
+
+Below is a table of values:
+
+|Age|Recommended|May be appropriate|
+|:--|:--|:--|
+|Newborns (0-3 months)|4 to 17 hours|11 to 19 hours|
+|Infants (4-11 months)|12 to 15 hours|10 to 18 hours|
+|Toddlers (1-2 years)|11 to 14 hours|9 to 16 hours|
+|Preschoolers (3-5 years)|10 to 13 hours|8 to 14 hours|
+|School-aged Children (6-13 years)|9 to 11 hours|7 to 12 hours|
+|Teenagers (14-17 years)|8 to 10 hours|7 to 11 hours|
+|Young Adults (18-25 years|7 to 9 hours|6 to 11 hours|
+|Adults (26-64 years)|7 to 9 hours|6 to 10 hours|
+|Older Adults (&gt;=65 years)|7 to 8 hours|5 to 9 hours|
 
 ## Graphic
 
