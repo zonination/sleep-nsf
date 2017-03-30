@@ -7,7 +7,7 @@ library(reshape2)
 
 ggplot(sleep)+
   geom_ribbon(aes(x=age,ymin=min,ymax=max,fill=Recommendation),alpha=.7,color="black")+
-  scale_fill_brewer(palette="Set1")+
+  scale_fill_manual(values=c("#bdd7e7","#3182bd"))+
   scale_y_continuous(limits=c(0,20))+
   labs(title="Sleep Duration Recommendations",
        subtitle="From the National Sleep Foundation",
