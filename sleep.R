@@ -1,16 +1,18 @@
 # Load library, set working directory, load data
-setwd("C:/Users/mcarozzo/Desktop/")
+# setwd("C:/path/to/file") # Uncomment to activate
 sleep <- read.csv("sleep.csv")
 # Source: https://sleepfoundation.org/media-center/press-release/national-sleep-foundation-recommends-new-sleep-times
 library(ggplot2)
 library(reshape2)
-source("z_theme.r")
 
 ggplot(sleep)+
-  geom_ribbon(aes(x=age,ymin=min,ymax=max,fill=Recommendation),alpha=.5)+
-  ylab("Hours of sleep")+
-  xlab("Subject Age (Years)")+
-  ggtitle("National Sleep Foundation's Sleep Duration Recommendations")+
+  geom_ribbon(aes(x=age,ymin=min,ymax=max,fill=Recommendation),alpha=.7,color="black")+
+  scale_fill_brewer(palette="Set1")+
   scale_y_continuous(limits=c(0,20))+
-  z_theme()
-  
+  labs(title="Sleep Duration Recommendations",
+       subtitle="From the National Sleep Foundation",
+       x="Subject Age (Years)",
+       y="Hours of Sleep",
+       caption="created by /u/zonination")+
+  theme_bw()
+ggsave("Sleep.png",height=6, width=10, type="cairo-png", dpi=120)
