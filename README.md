@@ -2,7 +2,7 @@
 
 ## About
 
-The National Sleep Foundation [recommends sleep](https://sleepfoundation.org/media-center/press-release/national-sleep-foundation-recommends-new-sleep-times) based on your age, and not the traditional 6-8 hours that is typical from .
+The National Sleep Foundation [recommends sleep](https://sleepfoundation.org/media-center/press-release/national-sleep-foundation-recommends-new-sleep-times) based on your age, and not the traditional 6-8 hours that is typical from conventional wisdom.
 
 Below is a table of values:
 
