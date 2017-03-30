@@ -33,4 +33,4 @@ Below is a table of values:
 
 # Other Information:
 
-[Reddit thread]()
+[Reddit thread](https://www.reddit.com/r/dataisbeautiful/comments/62fnt2/the_amount_of_sleep_you_need_gets_lower_as_you/)
